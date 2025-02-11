@@ -1,0 +1,18 @@
+{
+  "name": "Soul Dust",
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalagriculture:3",
+  "ingredient": {
+    "item": "mysticalagriculture:soul_dust"
+  },
+  "color": "4F2403",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_ingot",
+    "essence": "mysticalagriculture:item/essence_ingot"
+  },
+  "recipes": {
+    "crafting": false,
+    "infusion": false,
+    "reprocessor": false
+  }
+}
