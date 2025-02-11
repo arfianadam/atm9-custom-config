@@ -18,7 +18,7 @@ ServerEvents.recipes(allthemods => {
     function essenceCircle(result, essenceType) {
         allthemods.shaped(result, ['aaa', 'a a', 'aaa'], { a: `mysticalagriculture:${essenceType}_essence` }).id(`allthemods:mysticalagriculture/${essenceType}_essence_crafting`)
     }
-    essenceCircle('mysticalagriculture:soul_dust', 'soul_dust')
-    essenceCircle('mysticalagriculture:prosperity_shard', 'prosperity_shard')
+    essenceCircle(Item.of('mysticalagriculture:soul_dust', 4), 'soul_dust')
+    essenceCircle(Item.of('mysticalagriculture:prosperity_shard', 4), 'prosperity_shard')
     allthemods.remove({ mod: 'torcherino' })
 });
