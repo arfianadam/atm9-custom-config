@@ -3,13 +3,15 @@ ClientEvents.highPriorityAssets((allthemods) => {
         "mysticalagriculture:models/item/soul_dust_essence",
         "mysticalagriculture:models/item/soul_dust_seeds",
         "mysticalagriculture:models/item/prosperity_shard_essence",
-        "mysticalagriculture:models/item/prosperity_shard_seeds"
+        "mysticalagriculture:models/item/prosperity_shard_seeds",
+        "mysticalagriculture:models/item/flux_dust_essence",
+        "mysticalagriculture:models/item/flux_dust_seeds"
     ];
     modelsToDefaultToItem.forEach((rl) => {
         allthemods.add(rl, { parent: "forge:item/default" })
     });
 
-    let customSeeds = ["soul_dust", "prosperity_shard"];
+    let customSeeds = ["soul_dust", "prosperity_shard", "flux_dust"];
     customSeeds.forEach((seed) => {
         allthemods.add(`mysticalagriculture:blockstates/${seed}_crop`, {
             variants: {
