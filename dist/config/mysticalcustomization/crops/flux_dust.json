@@ -5,7 +5,7 @@
   "ingredient": {
     "item": "fluxnetworks:flux_dust"
   },
-  "color": "401040",
+  "color": "070707",
   "textures": {
     "flower": "mysticalagriculture:block/flower_ingot",
     "essence": "mysticalagriculture:item/essence_ingot"
